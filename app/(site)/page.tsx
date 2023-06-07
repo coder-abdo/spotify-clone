@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { Header } from "@/components/header";
 
 export default function Home() {
-  return <div className="text-green-500">hello from site</div>;
+  return (
+    <main className="bg-neutral-900 mx-auto rounded-lg h-full w-full overflow-x-hidden overflow-y-auto">
+      <Header>header here</Header>
+    </main>
+  );
 }
